@@ -1,0 +1,22 @@
+{
+  "name": "WhatsAppSpy",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "Carlos Rivero",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "js": [
+        "jquery-3.2.1.min.js",
+        "highcharts.js",
+        "myscript.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ]
+}
